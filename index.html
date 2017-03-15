@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <style type = 'text/css'>
+    .boton{
+      font-size:15px;
+       font-family:Lobster;
+       font-weight:bold;
+       color:#006f47;
+       background:white;
+       border:0px;
+       width:80px;
+       height:30px;
+       margin-left: 30px;
+       border: 0px;
+       border-radius: 8px;
+
+    }
+    .boton:hover{
+      background: black;
+
+    }
+   body{
+     background-color: #006f47;
+     font-family: Lobster;
+     font-size: 20px;
+     margin-left: 450px;
+     width:  30px;
+
+   }
+  </style>
+  <form >
+     <label>Nombre</label>
+     <input type="text" size= '25' name = 'Nombre y Apellido' placeholder="Nombre y Apellido">
+     <br>
+     <label> Telefono </label>
+    <input type="text" pattern= '' name="Telefono" size= '25' placeholder = 'Telefono'>
+    <br>
+    <label> Elige </label>
+    <select name = 'opciones'>
+      <option value="1"> opcion 1</option>
+      <option value="2">opcion 2</option>
+      <option value="3">opcion 3</option>
+    </select>
+    <br>
+    <label> Email </label>
+    <input type= 'email' name ='Email' size = '25' placeholder="Email">
+    <br>
+    <label> Contraseña</label>
+    <input type="password" name="contraseña" size = '25' placeholder = 'Contraseña'>
+    <br>
+    <br>
+    <input type="button" name="button"  value="Enviar" class = 'boton'>
+
+
+
+  </form>
+</body>
+</html>
