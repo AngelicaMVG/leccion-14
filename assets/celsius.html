@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Farenheit a Celsius</title>
+  <style>
+    body{
+      font-size: 30px;
+      font-family: fantasy;
+      background-color: #7990b7;
+      margin-left: 400px;
+      margin-top: 100px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Convertidor</h1>
+  <table border = '3' cellpadding = '2'>
+    <tr>
+      <td> Farenheit </td>
+      <td><input type="text" id = 'farenheit' name = 'farenheit'></td>
+      <td><input type = 'button'  value = 'Convertir a Celsius' onclick = 'convertirCelsius ();'></button></td>
+    </tr>
+    <tr>
+      <td> Celsius </td>
+      <td><input type="text" id = 'celsius' name = 'celsius'></td>
+      <td><input type = 'button' value = 'Convertir a Farenheit' onclick = 'convertirFarenheit();'></button></td>
+    </tr>
+  </table>
+  <script src= 'celsius.js'></script>
+</body>
+</html>
